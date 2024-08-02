@@ -35,8 +35,8 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem id="roboump" title="RoboUmp" thumbnail={roboump}>
-            A baseball umpiring system built using computer vision, Jetson Nano
-            computing, and made portable using a custom battery solution.
+            A baseball umpiring system built using computer vision and Jetson
+            Nano computing, and made portable using a custom battery solution.
           </WorkGridItem>
         </Section>
 
@@ -46,8 +46,8 @@ const Works = () => (
             title="Shoe and Clothes Deodorizer"
             thumbnail={forge}
           >
-            A system that could quickly perform preventative deodorizing on
-            shoes and clothes before odor stains occur.
+            A system focused on preventative care of shoes and clothes before
+            odor stains can occur.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
