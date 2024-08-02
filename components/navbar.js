@@ -63,11 +63,11 @@ const Navbar = props => {
         align="center"
         justify="space-between"
       >
-        <Flex align="center" mr={5}>
+        {/* <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
             <Logo />
           </Heading>
-        </Flex>
+        </Flex> */}
 
         <Stack
           direction={{ base: 'column', md: 'row' }}
@@ -77,6 +77,7 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+          <Logo />
           <LinkItem href="/" path={path}>
             Home
           </LinkItem>
