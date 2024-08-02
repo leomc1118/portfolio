@@ -17,7 +17,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoRestaurant } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -77,27 +77,27 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+          <LinkItem href="/" path={path}>
+            Home
+          </LinkItem>
           <LinkItem href="/works" path={path}>
-            Works
+            Projects
           </LinkItem>
-          <LinkItem href="/wallpapers" path={path}>
-            Wallpapers
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          {/* <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
+          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem> */}
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://www.sumiaohunan.com/"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoGithub />
-            Source
+            <IoRestaurant />
+            Family Restaurant
           </LinkItem>
         </Stack>
 
@@ -117,9 +117,9 @@ const Navbar = props => {
                   About
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
-                  Works
+                  Projects
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
+                {/* <MenuItem as={MenuLink} href="/wallpapers">
                   Wallpapers
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/posts">
@@ -127,12 +127,10 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
                   Uses
-                </MenuItem>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
-                >
-                  View Source
+                </MenuItem> */}
+                <MenuItem as={Link} href="https://www.sumiaohunan.com/">
+                  <IoRestaurant />
+                  Family Restaurant
                 </MenuItem>
               </MenuList>
             </Menu>

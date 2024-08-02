@@ -3,55 +3,51 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import fufupot from '../public/images/works/fufupot.webp'
+import roboump from '../public/images/works/roboump.webp'
+import forge from '../public/images/works/forge.webp'
+import notAvailable from '../public/images/works/MBTA.png'
+
+// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+// import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+// import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+// import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
+// import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
+// import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
+// import thumbStyly from '../public/images/works/styly_eyecatch.png'
+// import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
+// import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
+// import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Club Projects
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="fufupot" title="FufuPot" thumbnail={fufupot}>
+            An automated Fufu maker with a specialized mixing arm and a
+            touchscreen for embedded controls.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
-          >
-            Music recommendation app for iOS
+          <WorkGridItem id="roboump" title="RoboUmp" thumbnail={roboump}>
+            A baseball umpiring system built using computer vision, Jetson Nano
+            computing, and made portable using a custom battery solution.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="forge"
+            title="Shoe and Clothes Deodorizer"
+            thumbnail={forge}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+            A system that could quickly perform preventative deodorizing on
+            shoes and clothes before odor stains occur.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -60,18 +56,18 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Personal Projects
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+          <WorkGridItem id="mbta" thumbnail={notAvailable} title="MBTA Tracker">
+            [CURRENTLY IN PROGRESS] An embedded product that visualizes the
+            position of MBTA trains in real time.
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        {/* <Section delay={0.3}>
           <WorkGridItem
             id="modetokyo"
             thumbnail={thumbModeTokyo}
@@ -84,10 +80,10 @@ const Works = () => (
           <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
             A VR Creative tools for fashion brands
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
 
-      <Section delay={0.4}>
+      {/* <Section delay={0.4}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
@@ -116,7 +112,7 @@ const Works = () => (
             Windows
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Container>
   </Layout>
 )

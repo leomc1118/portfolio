@@ -19,7 +19,7 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Takuya Matsuyama" />
         <meta name="author" content="craftzdog" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/afavicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Takuya Matsuyama" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@craftzdog" />
