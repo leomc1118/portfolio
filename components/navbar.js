@@ -7,6 +7,8 @@ import {
   Link,
   Stack,
   Menu,
+  Flex,
+  Heading,
   MenuItem,
   MenuList,
   MenuButton,
@@ -61,11 +63,11 @@ const Navbar = props => {
         align="center"
         justify="space-between"
       >
-        {/* <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={'tighter'}>
+        <Flex align="center" mr={5}>
+          <Heading as="h1" size="lg" letterSpacing={'tight'}>
             <Logo />
           </Heading>
-        </Flex> */}
+        </Flex>
 
         <Stack
           direction={{ base: 'column', md: 'row' }}
@@ -75,7 +77,6 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <Logo />
           <LinkItem href="/" path={path}>
             Home
           </LinkItem>
@@ -101,7 +102,6 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-          <Logo />
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
@@ -114,7 +114,7 @@ const Navbar = props => {
               />
               <MenuList>
                 <MenuItem as={MenuLink} href="/">
-                  About
+                  Home
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
                   Projects
