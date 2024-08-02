@@ -21,7 +21,7 @@ const Main = ({ children, router }) => {
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/afavicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Leonardo Chen" />
-        <meta name="og:title" content="Leonard Chen" />
+        <meta name="og:title" content="Leonardo Chen" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="leo.jpeg" />
         <title>Leonardo Chen - Homepage</title>
