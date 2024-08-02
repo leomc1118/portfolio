@@ -73,6 +73,8 @@ const Home = () => (
           thinking about how I would have done things differently. My family
           currently runs a restaurant called Sumiao Hunan Kitchen, which was
           featured in the New York Times Top 20 Restaurants in Boston in 2024.
+          My involvement at the restaurant includes working as a full time
+          manager, server, host, website administrator, and menu designer.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
