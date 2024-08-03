@@ -15,7 +15,7 @@ import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Projects = () => (
-  <Layout title="fufupot">
+  <Layout title="Fufupot">
     <Container>
       <Title>
         FufuPot <Badge>Spring 2024</Badge>
@@ -41,7 +41,7 @@ const Projects = () => (
         </ListItem>
         <ListItem>
           <Meta>Role</Meta>
-          <span>Electrical and Computer Eningeer</span>
+          <span>Electrical and Computer Engineer</span>
         </ListItem>
         <ListItem>
           <Meta>Club</Meta>

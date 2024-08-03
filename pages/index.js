@@ -128,7 +128,7 @@ const Home = () => (
           <Link href="/images/goKart.JPG" target="_blank" color={'green.500'}>
             Fast Cars
           </Link>
-          , Reading, Cooking, Gaming, Tennis, and Watching Sports!
+          , Reading, Cooking, Gaming, Tennis, and Watching Sports!!
         </Paragraph>
       </Section>
 

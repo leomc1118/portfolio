@@ -11,10 +11,10 @@ import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Projects = () => (
-  <Layout title="fufupot">
+  <Layout title="RoboUmp">
     <Container>
       <Title>
-        FufuPot <Badge>Spring 2024</Badge>
+        RoboUmp <Badge>Fall 2023</Badge>
       </Title>
       <Center my={6}>
         <Image src="/images/works/roboump_BMS.webp" alt="banner" />
@@ -39,7 +39,7 @@ const Projects = () => (
         </ListItem>
         <ListItem>
           <Meta>Role</Meta>
-          <span>Electrical and Computer Eningeer</span>
+          <span>Electrical and Computer Engineer</span>
         </ListItem>
         <ListItem>
           <Meta>Club</Meta>
