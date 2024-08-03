@@ -25,7 +25,10 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Leo Chen (陈墨)
+            Leo Chen
+          </Heading>
+          <Heading as="h2" fontSize={22}>
+            陈墨
           </Heading>
           <p>Computer Engineer ( Embedded / Schematics / Layout )</p>
         </Box>
