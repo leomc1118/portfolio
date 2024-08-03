@@ -21,13 +21,14 @@ const Projects = () => (
         <Image src="/images/works/forge.webp" alt="banner" />
       </Center>
       <P>
-        Team project for Forge Product Development. I had mentioned that odors
-        would stain shoes and over time result in an unpleasant experience for
-        all interested parties. The Shoe and Clothes Deodorizer (we ran out of
-        time for the name) was the team&apos;s solution to this problem. Using
-        fast air and UV light, the product aimed to make it easy to regularly
-        deodorize, which would make shoes last longer and make workout shoes
-        more pleasant.
+        Team project for Forge Product Development. I&apos;m unfortunately not
+        in the picture because I had to depart the showcase event early. I had
+        mentioned that odors would stain shoes and over time result in an
+        unpleasant experience for all interested parties. The Shoe and Clothes
+        Deodorizer (we ran out of time for the name) was the team&apos;s
+        solution to this problem. Using fast air and UV light, the product aimed
+        to make it easy to regularly deodorize, which would make shoes last
+        longer and make workout shoes more pleasant.
       </P>
       <P>
         My task was to work with a 3rd year Mechanical Engineer to CAD the
