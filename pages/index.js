@@ -131,7 +131,22 @@ const Home = () => (
           , Reading, Cooking, Gaming, Tennis, and Watching Sports!!
         </Paragraph>
       </Section>
-
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Current Song Obsession
+        </Heading>
+        <Box borderRadius="12px" overflow="hidden" width="100%" height="152px">
+          <iframe
+            style={{ borderRadius: '12px' }}
+            src="https://open.spotify.com/embed/track/2GFExyKXf9383tSRSrEHEt?utm_source=generator&theme=0"
+            width="100%"
+            height="152"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </Box>
+      </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           My Links
