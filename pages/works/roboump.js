@@ -64,6 +64,9 @@ const Projects = () => (
           <Link href="https://w.atwiki.jp/amembo/">使い方wiki</Link>
         </ListItem> */}
       </List>
+      <Center my={6}>
+        <Image src="/images/works/roboumpUI.webp" alt="banner" />
+      </Center>
     </Container>
   </Layout>
 )
