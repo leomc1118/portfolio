@@ -128,7 +128,8 @@ const Home = () => (
           <Link href="/images/goKart.JPG" target="_blank" color={'green.500'}>
             Fast Cars
           </Link>
-          , Reading, Cooking, Gaming, Tennis, and Watching Sports!!
+          , Engineering, Reading, Cooking, Gaming, Tennis, Foodie Activities,
+          and Watching Sports!!
         </Paragraph>
       </Section>
       <Section delay={0.3}>
