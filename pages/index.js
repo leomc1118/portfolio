@@ -113,7 +113,7 @@ const Home = () => (
           EE Co-op at Boston Engineering Corporation (Jan - June)
         </BioSection>
         <BioSection>
-          <BioYear>Present</BioYear>
+          <BioYear>Now </BioYear>
           Generate, a product development club, ECE (Fall 2023 - Spring 2024)
           and Project Lead (Fall 2024)
         </BioSection>
