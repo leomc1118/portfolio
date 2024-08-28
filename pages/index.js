@@ -82,12 +82,12 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://docs.google.com/document/d/1bT1LSOyjRK8kf0xptOQD4NmxSyXBjoI_LaFz-ths0lY/edit?usp=sharing"
+            href="/works"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="green"
           >
-            My resume
+            My projects
           </Button>
         </Box>
       </Section>
@@ -120,12 +120,12 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="/works"
+            href="https://docs.google.com/document/d/1bT1LSOyjRK8kf0xptOQD4NmxSyXBjoI_LaFz-ths0lY/edit?usp=sharing"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="green"
           >
-            My projects
+            My resume
           </Button>
         </Box>
       </Section>
