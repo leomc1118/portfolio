@@ -76,18 +76,18 @@ const Home = () => (
           thinking about how I would have done things differently. My family
           currently runs a restaurant called Sumiao Hunan Kitchen, which was
           featured in the New York Times Top 20 Restaurants in Boston in 2024.
-          My involvement at the restaurant includes working as a full time
-          manager, server, host, website administrator, and menu designer.
+          My roles at the restaurant has included working as website
+          administrator, assistant manager, server, host, and menu designer.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="/works"
+            href="https://docs.google.com/document/d/1bT1LSOyjRK8kf0xptOQD4NmxSyXBjoI_LaFz-ths0lY/edit?usp=sharing"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="green"
           >
-            My projects
+            My resume
           </Button>
         </Box>
       </Section>
@@ -117,6 +117,17 @@ const Home = () => (
           Generate, a product development club, ECE (Fall 2023 - Spring 2024)
           and Project Lead (Fall 2024)
         </BioSection>
+        <Box align="center" my={4}>
+          <Button
+            as={NextLink}
+            href="/works"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="green"
+          >
+            My projects
+          </Button>
+        </Box>
       </Section>
 
       <Section delay={0.3}>
@@ -139,7 +150,7 @@ const Home = () => (
         <Box borderRadius="12px" overflow="hidden" width="100%" height="152px">
           <iframe
             style={{ borderRadius: '12px' }}
-            src="https://open.spotify.com/embed/track/2GFExyKXf9383tSRSrEHEt?utm_source=generator&theme=0"
+            src="https://open.spotify.com/embed/track/6PZCFT6QljctDqAxuvFhex?utm_source=generator&theme=0"
             width="100%"
             height="152"
             allowfullscreen=""
