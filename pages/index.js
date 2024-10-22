@@ -110,12 +110,19 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
+          Generate Product Development Studio ECE.
+        </BioSection>
+        <BioSection>
+          <BioYear>2024</BioYear>
           EE Co-op at Boston Engineering Corporation (Jan - June)
         </BioSection>
         <BioSection>
           <BioYear>Now </BioYear>
-          Generate, a product development club, ECE (Fall 2023 - Spring 2024)
-          and Project Lead (Fall 2024)
+          Generate Product Development Studio Project Lead.
+        </BioSection>
+        <BioSection>
+          <BioYear>2025 </BioYear>
+          Embedded Software Engineer Co-op.
         </BioSection>
         <Box align="center" my={4}>
           <Button
