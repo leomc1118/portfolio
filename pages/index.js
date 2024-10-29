@@ -121,7 +121,7 @@ const Home = () => (
           Generate Product Development Studio Project Lead.
         </BioSection>
         <BioSection>
-          <BioYear>2025 </BioYear>
+          <BioYear>2025</BioYear>
           Embedded Software Engineer Co-op.
         </BioSection>
         <Box align="center" my={4}>
@@ -157,7 +157,7 @@ const Home = () => (
         <Box borderRadius="12px" overflow="hidden" width="100%" height="152px">
           <iframe
             style={{ borderRadius: '12px' }}
-            src="https://open.spotify.com/embed/track/3sRCesHh424gmCji7Fz9Gm?utm_source=generator&theme=0"
+            src="https://open.spotify.com/embed/track/3nZIiM8v7Y1fcxmmqAYHh9?utm_source=generator&theme=0"
             width="100%"
             height="152"
             allowfullscreen=""
