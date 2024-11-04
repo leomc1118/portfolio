@@ -114,7 +114,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
-          EE Co-op at Boston Engineering Corporation (Jan - June)
+          EE Co-op at Boston Engineering Corporation.
         </BioSection>
         <BioSection>
           <BioYear>Now </BioYear>
@@ -122,7 +122,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2025</BioYear>
-          Embedded Software Engineer Co-op.
+          Embedded Engineer Co-op at WHOOP.
         </BioSection>
         <Box align="center" my={4}>
           <Button
