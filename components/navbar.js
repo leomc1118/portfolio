@@ -83,6 +83,9 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Projects
           </LinkItem>
+          <LinkItem href="/breadcrumbs" path={path}>
+            Breadcrumbs..
+          </LinkItem>
           {/* <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
@@ -128,6 +131,9 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
                   Uses
                 </MenuItem> */}
+                <MenuItem as={MenuLink} href="/breadcrumbs">
+                  Breadcrumbs..
+                </MenuItem>
                 <MenuItem as={Link} href="https://www.sumiaohunan.com/">
                   <IoRestaurant />
                   Family Restaurant
