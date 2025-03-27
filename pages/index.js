@@ -221,9 +221,7 @@ const Home = () => (
           time to do so means you will go crazy!!Too stimulating. Time to be
           bored also gives time to reflect and think of new ideas. This also
           feeds into the idea of hanging out with yourself. Going out and
-          spending time WITH yourself, not by yourself, can be revealing. You
-          will get to a point where you can make your own fun and humor
-          yourself. :)
+          spending time WITH yourself, not by yourself, can be revealing. :)
         </Paragraph>
       </Section>
       <Section delay={0.3}>
