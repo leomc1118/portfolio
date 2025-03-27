@@ -109,19 +109,27 @@ const Home = () => (
           Started attending Northeastern University.
         </BioSection>
         <BioSection>
+          <BioYear>2023</BioYear>
+          Generate Product Development Studio ECE (RoboUmp).
+        </BioSection>
+        <BioSection>
+          <BioYear>2023</BioYear>
+          Forge Product Development Club Project Lead (Forge Website).
+        </BioSection>
+        <BioSection>
           <BioYear>2024</BioYear>
-          Generate Product Development Studio ECE.
+          Generate Product Development Studio ECE (FufuPot).
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
           EE Co-op at Boston Engineering Corporation.
         </BioSection>
         <BioSection>
-          <BioYear>Now </BioYear>
-          Generate Product Development Studio Project Lead.
+          <BioYear>2024</BioYear>
+          Generate Product Development Studio Project Lead (Sensify).
         </BioSection>
         <BioSection>
-          <BioYear>2025</BioYear>
+          <BioYear>Now </BioYear>
           Embedded Engineer Co-op at WHOOP.
         </BioSection>
         <Box align="center" my={4}>
