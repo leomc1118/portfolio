@@ -218,7 +218,7 @@ const Home = () => (
         <Paragraph>
           Find some time every week to give yourself to be bored. We&apos;re
           evolved to let our minds wander regularly and failure to give yourself
-          time to do so means you will go crazy!!Too stimulating. Time to be
+          time to do so means you will go crazy!! Too stimulating. Time to be
           bored also gives time to reflect and think of new ideas. This also
           feeds into the idea of hanging out with yourself. Going out and
           spending time WITH yourself, not by yourself, can be revealing. :)
