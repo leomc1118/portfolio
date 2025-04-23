@@ -3,6 +3,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+// PREVIEW IMAGE SIZES ARE 4032 x 2688
+import sensify from '../public/images/works/sensify.webp'
 import fufupot from '../public/images/works/fufupot.webp'
 import roboump from '../public/images/works/roboump.webp'
 import forge from '../public/images/works/forge.webp'
@@ -28,18 +30,17 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
+          <WorkGridItem id="sensify" title="Sensify" thumbnail={sensify}>
+            A modular virtual reality controller that utilizes attachments to
+            physically mimic the objects a user interacts with in VR apps.
+          </WorkGridItem>
+        </Section>
+        <Section>
           <WorkGridItem id="fufupot" title="FufuPot" thumbnail={fufupot}>
             An automated Fufu maker with a specialized mixing arm and a
             touchscreen for embedded controls.
           </WorkGridItem>
         </Section>
-        <Section>
-          <WorkGridItem id="roboump" title="RoboUmp" thumbnail={roboump}>
-            A baseball umpiring system built using computer vision and Jetson
-            Nano computing, and made portable using a custom battery solution.
-          </WorkGridItem>
-        </Section>
-
         <Section delay={0.1}>
           <WorkGridItem
             id="forge"
@@ -50,11 +51,16 @@ const Works = () => (
             odor stains can occur.
           </WorkGridItem>
         </Section>
+        <Section>
+          <WorkGridItem id="roboump" title="RoboUmp" thumbnail={roboump}>
+            A baseball umpiring system built using computer vision and Jetson
+            Nano computing, and made portable using a custom battery solution.
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
 
       <Section delay={0.2}>
         <Divider my={6} />
-
         <Heading as="h3" fontSize={20} mb={4}>
           Personal Projects
         </Heading>
